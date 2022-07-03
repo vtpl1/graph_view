@@ -1,2 +1,8 @@
-yapf
 bump2version
+coverage
+pytest
+playwright
+pytest-playwright
+yapf
+wheel
+zest.releaser[recommended]
