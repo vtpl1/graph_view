@@ -20,7 +20,7 @@ def get_python_files():
 
 setup(
     name='graph_view',
-    version='1.0.0',
+    version='1.0.1.dev0',
     description="Graph view visualization framework",
     author="Monotosh Das",
     author_email="monotosh.das@videonetics.com",
