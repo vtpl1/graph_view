@@ -21,6 +21,12 @@ def get_python_files():
 setup(
     name='graph_view',
     version='1.0.0',
+    description="Graph view visualization framework",
+    author="Monotosh Das",
+    author_email="monotosh.das@videonetics.com",
+    url="http://pypi.videonetics.com",
+    keywords="visualization framework",
+    classifiers=["License :: OSI Approved :: MIT License"],
     packages=find_packages(
         exclude=["*.tests", "test", "tests", "session", "videos"]),
     include_package_data=True,

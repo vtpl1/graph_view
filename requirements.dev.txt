@@ -1,5 +1,6 @@
 bump2version
 coverage
+cython
 pytest
 playwright
 pytest-playwright

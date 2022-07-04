@@ -2,3 +2,10 @@ include graph_view/schema.sql
 graft graph_view/static
 graft graph_view/templates
 global-exclude *.pyc
+exclude *.cmd
+exclude *.ps1
+exclude *.sh
+exclude *.txt
+exclude pytest.ini
+recursive-exclude tests *.py
+recursive-exclude tests *.sql
